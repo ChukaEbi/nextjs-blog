@@ -4,7 +4,7 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
 const name = "Chuka Ebi";
-export const siteTitle = "Next.js sample website";
+export const siteTitle = "SaaS app";
 
 export default function Layout({ children, home }) {
   return (
@@ -32,7 +32,7 @@ export default function Layout({ children, home }) {
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1 className={utilStyles.heading2Xl}>Super cool SaaS app</h1>
           </>
         ) : (
           <>
